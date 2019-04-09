@@ -7,3 +7,7 @@
 提交改变
 点击Show in Exploer，打开repository所在文件夹，编辑文件
 点击push origin将改动上传远程
+
+版本回退
+点击history，打开commit历史记录（有时候需要切一下branch再切回来）
+右键commit记录，选择revert this commit
