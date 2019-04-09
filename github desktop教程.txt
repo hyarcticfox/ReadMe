@@ -1,0 +1,7 @@
+在desktop上打开repostiory
+
+1. 打开网页版进入repository，点击右边clone or download，选择open in desktop
+2. URL一项选择存储路径
+或者，如果文件夹在本地，在desktop上选择file—add local repository,添加文件夹
+
+提交改变
