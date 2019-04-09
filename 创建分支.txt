@@ -1,0 +1,8 @@
+创建
+branch—new branch
+
+合并分支
+选择主分支
+branch—merge into current branch
+选择要合并的分支
+点击merge into master
