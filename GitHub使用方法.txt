@@ -1,30 +1,30 @@
-GitHubʹ�÷���
+GitHub使用方法
 
-1. ��ҳ
-����repository����ҳ���Ͻ� ��+��
-gitignore�ļ����ڸ��ļ��ж�����Ӧ�ĺ��Թ�����������ǰ�ļ����µ��ļ���Git�ύ��Ϊ��
-��ʲô����д�ľ�ѡ��ʲô
-license����Դ����֤
+1. 网页
+创建repository：首页右上角 “+”
+gitignore文件：在该文件中定义相应的忽略规则，来管理当前文件夹下的文件的Git提交行为。
+用什么语言写的就选择什么
+license：开源许可证
 
-����Branch���޸ı��ݣ������branch: master, �����֧���ƣ�ѡ��Create branch��س�
-branch�൱����Ŀ�Ĳ�ͬ�޸İ汾
+创建Branch（修改备份）：点击branch: master, 输入分支名称，选择Create branch或回车
+branch相当于项目的不同修改版本
 
-�޸�/����
-ѡ���ұߵ�Ǧ��
-�޸����ݺ���commit,ֻ��Ӱ�쵱ǰ��֧��
+修改/覆盖
+选择右边的铅笔
+修改内容后点击commit,只会影响当前分支。
 
-��һ��Pull Request
-Pull Request ��һ�ֻ��ƣ��ÿ����߸�����Ŀ��Աһ�������Ѿ���ɡ�һ�� feature ��֧������ϣ�
-������ʹ�� GitHub �˺��ύһ�� Pull Request�����������в����ߣ�������Ҫ�����룬�������벢�� master ��֧��
-Pull Request ��ֻ��һ��֪ͨ������һ��רע��ĳ�����鹦�ܵ����۰�
-ѡ�� Pull Request�� ��New pull request
-��Example Comparisons �У�ѡ��Ҫ��ԭʼbranch�Ƚϵ�branch
-ȷ��Ҫ�ύ�ĸ��������ѡ��Create Pull Request
-��write����д��˵������Create Pull Request
+打开一个Pull Request
+Pull Request 是一种机制，让开发者告诉项目成员一个功能已经完成。一旦 feature 分支开发完毕，
+开发者使用 GitHub 账号提交一个 Pull Request。它告诉所有参与者，他们需要审查代码，并将代码并入 master 分支。
+Pull Request 不只是一个通知，还是一个专注于某个提议功能的讨论版
+选择 Pull Request， 点New pull request
+在Example Comparisons 中，选择要与原始branch比较的branch
+确定要提交的更改无误后，选择Create Pull Request
+在write框里写好说明，点Create Pull Request
 
-�ϲ�branch
-ѡ� 
-Merge pull request: �����������֧�ϵ��ύ�ϲ���������֧�����ܱ��� master ��֧�ɾ������Ǳ��������е� commit history
-Squash and merge: ѹ���ϲ� pull request ���ύ���ڻ�����֧��ֻ��һ���ύ
-Rebase and merge: ���ύ���������������֧��.��ν�ı����ʵ�����ҵ�������֧��ͬ�����ȣ�Ȼ���ڵ�ǰ��֧�Ϻϲ��ӹ�ͬ���ȵ����ڵ����� commit��
-������ʶ��author
+合并branch
+选项： 
+Merge pull request: 将所有这个分支上的提交合并到基础分支，不能保持 master 分支干净，但是保持了所有的 commit history
+Squash and merge: 压缩合并 pull request 的提交，在基础分支里只有一个提交
+Rebase and merge: 将提交单独变基到基础分支上.所谓的变基其实就是找到两个分支共同的祖先，然后在当前分支上合并从共同祖先到现在的所有 commit，
+且易于识别author 
